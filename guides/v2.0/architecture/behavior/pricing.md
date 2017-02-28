@@ -166,7 +166,7 @@ To invoke the price rendering block, you need to add the following code to a pag
 <pre>
 $this->getLayout()->getBlock('product.price.render.default')->render(
     '&lt;price type>',
-    $product
+    $product,
     $arguments
 );
 </pre>
@@ -455,7 +455,7 @@ In the following table you can find the complete list of the rendering argument
     <tr>
       <td>
         <p>
-          <code>id_suffix</code>
+          <code>price_id_suffix</code>
         </p>
       </td>
       <td>
